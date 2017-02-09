@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+<head>
+		<script type="text/javascript" src="jquery.js"></script>
+		
+	<script type="text/javascript">
+	$(document).ready(function(){
+     $('input#button').attr('disabled','disabled');
+     $('input#textbox').keypress(function(){
+      if($(this).val() != ''){
+     $('input#button').removeAttr('disabled');
+            }
+     });
+	$("input").keyup(function(){
+    txt=$("input#textbox").val();
+    $.post("post.php",{suggest:txt},function(result){
+      $("span").html(result);
+    });
+  });
+
+});
+</script>
+<link rel="stylesheet" type="text/css" href="style.css">
+<link rel="stylesheet" type="text/css" href="style1.css">
+
+<title>Seva Portal</title>
+</head>
+<body height="700px" >
+
+<marquee style= "color:#004664"><h2>WELCOME TO SEVA WIKI PORTAL</h2></marquee>
+<div id="main" >
+	<img src="sevapic.jpg" style="width:304px;height:228px;padding-left:450px;padding-top:50px;">
+	<div class="mi" align="right">
+	<form id="form" style="padding-left:350px;">
+		<input id="textbox" type="text" size="40px" height="100px"class="li1" >
+		<a id="src" ><input onClick="search();" id="button" type="button" value="Search" size="150px" height="300px">
+		</a>
+	</form>
+	<span style="left:480px;padding-top:50px;"onClick="search();"></span>
+	</div>
+</div>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+
+
+
+<div id="footer" align="right" style="top:400px;">
+Copyright @ 2016, Seva Development
+</div>
+
+</body>
+
+<script type="text/javascript">
+
+function search(){
+window.location.href='portal.php?sugg='+document.getElementById("textbox").value;
+
+
+}
+</script>
+
+</html>

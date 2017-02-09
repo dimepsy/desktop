@@ -1,0 +1,170 @@
+@charset "utf-8";
+body {
+	font: 100%/1.4 Verdana, Arial, Helvetica, sans-serif;
+	margin: 0;
+	padding: 0;
+	color: #000;
+	background-color:#f1f0cc;
+	background-image: none;
+	top:0;
+}
+
+/* ~~ Element/tag selectors ~~ */
+ul, ol, dl { 
+	padding: 0;
+	margin: 0;
+}
+h1, h2, h3, h4, h5, h6, p {
+	margin-top: 0;	
+	padding-right: 15px;
+	padding-left: 15px; 
+}
+a img { 
+	border: none;
+}
+
+
+a:link {
+	color:#b13d3d;
+	text-decoration: none; 
+}
+a:visited {
+	color: #4E5869;
+	text-decoration: none;
+}
+a:hover, a:active, a:focus { 
+	text-decoration: none;
+}
+
+.input{
+	width:20px;
+}
+
+.inputgm{
+	width:40px;
+}
+
+.form1{
+	font-family:Georgia, "Times New Roman", Times, serif;
+	font-size:20px;
+	color:#555;
+}
+
+.form2{
+	font-family:Georgia, "Times New Roman", Times, serif;
+	font-size:30px;
+	color:#555;
+}
+
+.container {
+	width: 80%;
+	max-width: 1260px;
+	min-width: 780px;
+	background: #ffffff;
+	margin: 0 auto; 
+	height:auto;
+	/*border:10px solid #f1f0cc;*/
+
+}
+
+.header {
+	background: #b13d3d;
+	border-bottom:10px solid #f1f0cc;
+
+}
+
+
+.side1 {
+	float: left;
+	width: 20%;
+	padding-right:0px;
+	background-color: #ffffff;
+	height:auto;
+	font-size:20px;
+	font-style:oblique;
+	border-bottom:10px solid #f1f0cc;
+}
+
+.content {
+	padding-left:0px;
+	width: 57.2%;
+	float: left;
+	height:auto;
+	border-left:10px solid #f1f0cc;
+	border-bottom:10px solid #f1f0cc;
+	border-right:10px solid #f1f0cc;
+}
+
+ul.nav {
+	list-style: none; 
+	border-top: 1px solid #f1f0cc; 
+	height:auto; 
+}
+ul.nav li {
+	border-bottom: 1px solid #f1f0cc; 
+}
+
+ul.nav a, ul.nav a:visited { 	padding: 5px 5px 5px 15px;
+	display: block; 
+	text-decoration: none;
+	background: #ffffff;
+	color: #b13d3d;
+}
+ul.nav a:hover, ul.nav a:active, ul.nav a:focus { 
+	background: #b13d3d;
+	color: #f1f0cc;
+}
+
+.comment {
+	padding-left: 50px;
+	height:55%;
+}
+
+.interaction{
+	padding-left:50px;
+	height:20%
+}
+
+.subside1{
+	width:60%;
+	float:left;
+}
+
+.subside2{
+	width:30%;
+	float:right;
+}
+
+.division{
+	height : 50px;
+}
+
+.one{
+	width:50%;
+	float:left;
+}
+
+.two{
+	width:50%;
+	float:right;
+}
+
+.admin1{
+	width:60%;
+	float:left;
+}
+
+.admin2{
+	width:30%;
+	float:right;
+}
+
+.panel1{
+	width:60%;
+	float:left;
+}
+
+.panel2{
+	width:30%;
+	float:right;
+}

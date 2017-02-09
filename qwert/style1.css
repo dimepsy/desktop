@@ -1,0 +1,122 @@
+/* Search.php*/
+.li1 {
+	height: 30px;
+	width: 500px;
+	border: thin groove #000;
+	font-size: 16px;
+	padding: 9px;
+	font-family: sans-serif;
+	font-weight: 600;
+	float: left;
+	
+} 
+
+.mi {
+	height: 50px;
+	word-spacing: 1em;
+	width: 700px;
+	padding-top: 1px;
+	padding-bottom: 1px;
+	padding-left: 0px;
+	
+	
+	
+	
+	
+	
+}
+
+/* Post.php*/
+
+
+ul {
+	font-family: "Comic Sans MS", cursive;
+	font-size: 16px;
+	height: 17px;
+	width: 495px;
+	border-top-width: thin;
+	border-right-width: thin;
+	border-bottom-width: thin;
+	border-left-width: thin;
+	border-top-style: groove;
+	border-right-style: groove;
+	border-bottom-style: groove;
+	border-left-style: groove;
+	border-top-color: #666;
+	border-right-color: #666;
+	border-bottom-color: #666;
+	border-left-color: #666;
+	padding-right: 2px;
+	color: #FFF;
+	background-color: #CCC;
+	background-repeat: no-repeat;
+	padding-left: 200px;
+	margin-top: 30px;
+	
+}
+h1 {
+	font-size: 14px;
+	color: #333;
+	padding-left: 17px;
+	background-repeat: no-repeat;
+	height: 17px;
+	white-space: pre;
+	border-bottom-width: thin;
+	border-bottom-style: groove;
+	border-bottom-color: #666;
+	font-weight: normal;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	margin-left: 0px;
+	background-attachment: fixed;
+	margin-top: -1px;
+	padding-bottom: 2px;
+	background-position: 2px;
+	
+}
+li {
+	list-style: none;
+	font-size: 12px;
+	color:#666;
+	border-bottom-width: thin;
+	border-bottom-style: groove;
+	border-bottom-color: #666;
+	height: 18px;
+	background-color: #FFF;
+	border-right-width: thin;
+	border-left-width: thin;
+	border-right-style: groove;
+	border-left-style: groove;
+	border-right-color: #666;
+	border-left-color: #666;
+	width: 50%;
+	font-family: "Comic Sans MS", cursive;
+	padding-bottom: 5px;
+	overflow: auto;
+	
+	
+
+}
+li:hover {
+	padding-top: 2px;
+	font-size: 16px;
+	color: #FFF;
+	background-color: #666;
+	border-bottom-width: thin;
+	border-bottom-style: groove;
+	border-bottom-color: #FFF;
+	height: 17px;
+	font-family: "Comic Sans MS", cursive;
+	
+}
+.button1 {
+	width: 80px;
+	float: left;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 13px;
+	color: #FFF;
+	background-color: #333;
+	border: thin groove #000;
+	height: 30px;
+	margin-left: 2px;
+}
